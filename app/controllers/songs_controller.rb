@@ -1,4 +1,4 @@
-Class SongsController < ApplicationController
+class SongsController < ApplicationController
   require 'csv'
 
   def index
@@ -57,3 +57,4 @@ Class SongsController < ApplicationController
     params.require(:song).permit(:title, :artist_name)
   end
 
+end
