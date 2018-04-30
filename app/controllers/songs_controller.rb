@@ -1,4 +1,4 @@
-Sclass SongsController < ApplicationController
+class SongsController < ApplicationController
   require 'csv'
 
   def index
